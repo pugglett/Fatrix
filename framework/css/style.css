@@ -1,35 +1,42 @@
 
-
-}
-#color{
-  color: red;
-}
-
+/* --- TEXT SETTINGS --- */
 body {
-  background-color: #000; /* This is the background for overscrollng */
-  color: white; /* Text color for all text */
+  background-color: #000; 
+  color: white; 
+  
 }
 #wrapper {
-  background-color: #232222; /* creates grey box around all the content */
-  width: 100%; /* makes the white box not fill the whole width of the browser window */
-  margin-left: auto; /* this line and the next one center the white box */
+  background-color: #232222; 
+  width: 100%; 
+  margin-left: auto; 
   margin-right: auto;
-  margin-top: .6em; /* creates a little space between upper browser edge and top of white box */
-  border-bottom: 4em #232222; /* creates the white stripe that pokes out below the footer */
-  border-radius: .4em; /* round the corners of the white box.*/
+  margin-top: .6em; 
+  border-bottom: 4em #232222; 
+  border-radius: .4em; 
 }
-header h1 { /* for the <h1> inside <header>, do the following... */
-  text-transform: uppercase; /*make all letters inside <h1> uppercase */
-  text-align: center; /* align text to center of #wrapper */
-  padding-top: .4em; /* add a little padding above <h1> text */
-  padding-bottom: 0em; /* don't add any padding to bottom of <h1> text */
-  margin-top: 0em; /* don't include any margin above h1 (it normally has some by default) */
-  margin-bottom: .3em; /* set .3em margin below <h1> */
-  color: white; /*set color of h1 text to match nav color */
-  letter-spacing: -.05em; /* tighten up the spacing between letters a bit */
+
+section{ 
+  padding: 2em; 
 }
-section{ /* main is a new HTML5 tag used to surround the main content on a site (everything except for nav and footer) */
-  padding: 2em; /* creates space around text and images so theyre don't go right to the edge of the white box */
+
+header h1 { 
+  text-transform: uppercase; 
+  text-align: center; 
+  padding-top: .4em; 
+  padding-bottom: 0em; 
+  margin-top: 0em; 
+  margin-bottom: .3em; 
+  color: white; 
+  letter-spacing: -.05em; 
+}
+
+
+p{
+font-size: 20px
+}
+
+span{
+  color:green;
 }
 
 /* --- IMAGE SETTINGS --- */
@@ -38,15 +45,15 @@ img.float-left {
   margin-right: 1em;
 }
 
-img.float-right { /* for any image tag with class="float-right", do the following... */
-  float: right; /* position it on the right and let other things sit beside it/wrap around it */
-  margin-left: 1em; /* don't let text get to close to the left edge of the image */
+img.float-right { 
+  float: right; 
+  margin-left: 1em; 
 }
-img.rounded { /* for any image with class="rounded", do the following... */
-  border-radius: 100%; /* completely round the edges so it makes a circle shape */
+img.rounded { 
+  border-radius: 100%; 
 }
 .border1 {
-  border: solid 5px white; /* add a border that matches the background color on anything with class="border1" */
+  border: solid 5px white; 
   background-color: #000;
 }
 
@@ -54,23 +61,14 @@ img.rounded { /* for any image with class="rounded", do the following... */
   color: green;
 }
 
-
-footer {
-  background-color: #232222;
-  
-  text-align: center;
-  font-size: .7em;
-  color: white;
-}
-footer a { /* for every <a> inside <footer>, do the following... */ 
-  color: white; /* make the linked text white */
+.img-responsive {
+ display: block;
+ height: auto;
+ max-width: 100%;
 }
 
 
-span{
-  color:green;
-}
-
+/* --- NAVAGATION SETTINGS --- */
 .dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a{
   background-image: none;
   background-color: white;
@@ -85,14 +83,25 @@ color:red;
 
 .dropdown-menu a{
     color: grey !important;
-    box-shadow: blue;
+
 }
 
-.img-responsive {
- display: block;
- height: auto;
- max-width: 100%;
+/* --- FOOTER SETTINGS --- */
+footer {
+  background-color: #232222;
+
 }
+
+}
+footer a { 
+  color: white;
+}
+
+
+
+
+
+
 
 
 
