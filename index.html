@@ -1,113 +1,605 @@
 <!DOCTYPE html>
-
 <html lang="en">
+
 <head>
-<title></title>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, intitial-scale=1">
-    <link rel="stylesheet" href="framework/css/bootstrap.css">
-    <link href="framework/css/style.css" type="text/css" rel="stylesheet" >
-    <link href="framework/css/logo-nav.css" rel="stylesheet">
-<link href="framework/css/logo-nav.css" rel="stylesheet">
-<link rel="icon" type="image/png" href="images/expertfinalweb.png" sizes="96x96">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This website is for the ERA Footwork Crew LLC">
+    <meta name="author" content="Spencer William Hopkins">
+
+    <title>The Era Footwork Crew LLC</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
 
 </head>
 
-<body background="images/matrix.gif">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#">
-                <a href="index.html">
-                 <img src="images/expertfinal.png" hieght="100" width="100">
-                 </a>
-                
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i></i>  <span class="light"></span> The Era Footwork Crews 
+                </a>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="index.html" id="color"><span>Home</span></a>
-                    </li>
-                    <li class="dropdown"> 
-                        <a href="Erika.html" data-toggle="dropdown" class="dropdown-toggle" id="color">Team<b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                    <li><a href="Erika.html">Erika</a></li>
-                    <li><a href="Savi.html">Savi</a></li>
-                    <li><a href="Jeremy.html">Jeremy</a></li>
-                    <li><a href="Spencer.html">Spencer</a></li>
-                </ul>
-                <li class="dropdown"> 
-                        <a href="Erika.html" data-toggle="dropdown" class="dropdown-toggle" id="color">Lessons Simulations<b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                    <li><a href="Excel.html">Excel</a></li>
-                    <li><a href="PublicSpeaking.html">Publc Speaking</a></li>
-                    <li><a href="ComputerNetworking.html">Computer Network</a></li>
-                    <li><a href="Grammar.html">Grammar</a></li>
-                </ul>
-                    </li>
-                    <li>
-                        <a href="Fight.html" id="color">Fight</a>
-                    </li>
 
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#home">home</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#news">news</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#history">history</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">photos</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#videos">videos</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#shop">shop</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
     </nav>
+    <!-- /Navigation -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- ---->
 
-    <!-- Page Content -->
-    <div class="container">
+
+
+
+
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body" id="home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading"><img class="img-responsive" src="img/logow.png" alt="" class="col-lg-12"></h1>
+                        <p class="intro-text"><h1>Meet us by the speakers</h1>
+
+
+                        <img class="float-left" src="img/speakerr.gif" height="150" width="150" alt="" class="col-lg-12"><img class="float-right" src="img/speakerl.gif" height="150" width="150" alt="" class="center">
+
+
+                        </p>  
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- News Section -->
+    <section id="news" class="container content-section text-center">
         <div class="row">
-            <div class="col-lg-12">
-                
-              <section id="wrapper">
-              <img src="images/expertBW.png" height="250" class="float-right">
-                <h1>The Xperts</h1>
-                <p> The Xperts is a team of highly skill youth who use their powers to close the opportunity divide. The opportunity divide is lack of knowledge and resources to someone or a group. Everyone doesn't have the opportunity to break out of the simulation the matrix has put him or her in. Sometimes they have the opportunity, but they are not prepared due to the lack of knowing and preparation. We first meet 18 weeks ago at Year Up. By a series of events, we were banded together and rose above are peers. We soon learn that even some of them are stuck in simulation that the matrix has put them in. To save them we have dedicated are live to becoming great and empower all of people we can.
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>News</h2>
+                <p>The FADER: DJ Spinn Remixed Kanye West "All Day" And The Music Video Is Gold</p>
+				<p>Boiler Room: Learning to footwork - A tutorial with The ERA</p>
+				<p>The FADER: Chicago Footworker Litebulb Awarded Prestigious Dance Grant</p>
+				<p>The Chicago Reader: Tonight - The Era and Teklife bring footwork to the art-gallery world</p>
+				<p>THE FADER: Watch a Poignant Tour Diary from Footwork Dance Crew The Era</p>
+				<p>Booty Music Japan: LiteBulb(TH王RA) Interview (English Version)</p>
+				<p>FACT: Watch a Tour Diary from All Star Footwork Crew THE ERA</p>
+				<p>Resident Advisor: Footwork dancers The Era to perform in Chicago alongside Teklife DJs</p>
+                <p></p>
+                <p></p>
 
-</p>
-</section>
-<br>
+            </div>
+        </div>
+    </section>
 
-<section id="wrapper">
-<img src="images/fist.png" height="250" class="float-left">
-<h1>Resistance</h1>
-<p> With every ruler there, is a resistance. It in is nature. This is a war on many fronts; Mentally, physically, and spiritually. There are very few fighting on our end and many who believe a change should happen are to scare of the other side or the will is weak. Whether many join or it comes down to us we will win this war. We figure that technology is the biggest help and enemy to complete this mission. Our main focus is Tech skills, Professional skills, and will power. We will help you build those skills to make you stronger.
-</p>
-</section>
-<br>
 
-<section id="wrapper">
-<img src="images/hand.png" height="250" class="float-right">
-<h1>Reach Out</h1>
-<p> To close the Opportunity divide, we must reach out to as many people as possible. If you find this information useful, share the site to a friend. Spread the knowledge that you learn to your peers to enlighten each other and to raise awareness about The Matrix. Look into <span><a href="http://www.yearup.org/">Year Up</a></span>. Millions of young adults in the US have talent and motivation, but lack opportunity. At the same time, companies have opportunities available, but lack the talent they need to succeed.
-</p>
-              </section>
+    <section id="download" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Title</h2>
+                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
+                    <a href="" class="btn btn-default btn-lg">button</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- History Section -->
+    <section id="history" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>History</h2>
+                <p>THE ERA is a Footwork Dance Company from Chicago also specializing in media. Performing for local enthusiasts, international audiences and everyone in between, at venues like the Barbican in London, Womb in Tokyo, PS-1 MoMa in New York, Pitchfork music Festival in Chicago and Hellow Festival in Monterrey, Mexico. THE ERA was conceptualized in 2010 as a grassroots Footwork crew on the South Side, uniting Chicago's top Footworkers into a new crew. THE ERA is co-founders LITEBULB, Ste-lo, co-founder / media coordinator Chief Manny, DIPSET and P-Top, supported by personal managers Dee-Dee Stallworth and Dana Givens, Surefire agent Devin Landau, Japanese affiliate Weezy, and founding advisor / media Coordinator Wills Glasspiegel. THE ERA is based in Chicago.. we give unique footwork workshops, perform cameos in feature length films, concerts, develop stage performances, create films, teach and research footwork history, produce digital animations while contributing to all sorts of creative work in and outside of Chicago.</p>
+                <p></p>
+                <p></p>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="download" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Title</h2>
+                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
+                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">button</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Photos Section -->
+    
+                <section class="success" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h2>Photo Gallery</h2>
+               </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item text-center">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/a1.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item text-center">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/b1.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item text-center">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/c1.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item text-center">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/d1.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item text-center">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/default.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item text-center">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/default.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <!-- /.container -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Chicago Fire 2014</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Photographer:
+                                    <strong><a href="http://www.chicagofirefestival.com/">DDesigns</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Event:
+                                    <strong><a href="http://startbootstrap.com">Chicago Fire</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Portfolio Modals -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- ---->
+
+
+
+
+
+        
+
+            </div>
+        </div>
+    </section>
+
+    <section id="download" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Title</h2>
+                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
+                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">button</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Vidoes Section -->
+    <section id="videos" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Videos</h2>
+                <p><iframe width="560" height="315" src="https://www.youtube.com/embed/HBy6JO_Obrk" frameborder="0" allowfullscreen></iframe></p>
+                <hr>
+                <p><iframe width="560" height="315" src="https://www.youtube.com/embed/hKFIGJHXU-0" frameborder="0" allowfullscreen></iframe></p>
+                <br>
+                <hr>
+                <p><iframe width="560" height="315" src="https://www.youtube.com/embed/49cQHfWzn0o" frameborder="0" allowfullscreen></iframe></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Title</h2>
+                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
+                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">button</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="shop" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Shop</h2>
+                 <p></p>
+                <p></p>
+                <p></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact The Era</h2>
+                <p><h3>Location</h3>
+                        <p>2233 S Throop St<br>Chicago, IL 60608</p>
+                <p><a href="mailto:we.the.eracrew@gmail.com">we.the.eracrew@gmail.com</a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://twitter.com/theeratakeover" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name"></span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UC9O_Hc2vdRreuwbQV0mdlUw" class="btn btn-default btn-lg"><i class="fa fa-youtube fa-fw"></i> <span class="network-name"></span></a>
+                    </li>
+                     <li>
+                        <a href="https://www.facebook.com/TheEraTakeover" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name"></span></a>
+                    </li>
+                    <li>
+                        <a href="http://wetheera.tumblr.com/" class="btn btn-default btn-lg"><i class="fa fa-tumblr fa-fw"></i> <span class="network-name"></span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll">
+        <a class="btn btn-primary btn-circle page-scroll" href="#page-top">
+            <i class="fa fa-angle-double-up animated"></i>
+        </a>
+    </div>
+     <div class="scroll-tops page-scroll">
+        <a class="btn btn-primary btn-circle page-scroll" href="#shop">
+            <i class="fa fa-angle-double-down animated"></i>
+        </a>
+    </div>
+    <!-- /Scroll -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- ---->
+
+
+    </section>
+
+    
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; The Era Footwork Crew LLC 2015</p>
+        </div>
+    </footer>
 
     <!-- jQuery -->
-    <script src="framework/js/jquery.js"></script>
+    <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="framework/js/bootstrap.min.js"></script>
-    <br>
-    
-<footer>© 2015 Xperts. All rights reserved</footer>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
 
 </body>
+
 </html>
